@@ -24,5 +24,7 @@ public class Main {
         else {
             System.out.println("Your name is " + name + ", you are " + age + " years old, and your username is " + rName + ".");
         }
+
+        input.close();
     }
 }
