@@ -18,7 +18,11 @@ public class Main {
         System.out.print("Enter your reddit name: ");
         String rName = input.next();
 
-        System.out.println("Your name is " + name + ", you are " + age + " years old, and your username is " + rName + ".");
-
+        if (age > 1){
+            System.out.println("Your name is " + name + ", you are " + age + " year old, and your username is " + rName + ".");
+        }
+        else {
+            System.out.println("Your name is " + name + ", you are " + age + " years old, and your username is " + rName + ".");
+        }
     }
 }
